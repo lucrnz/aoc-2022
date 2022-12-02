@@ -35,3 +35,13 @@ In this example, if you were to follow the strategy guide, you would get a total
 Use [Node.js](https://nodejs.org) to run this script and pass in the example input
 
     node main.js < input
+
+## Run with Docker
+
+Build the image
+
+    docker build -t lucdev-aoc-day2 .
+
+Run the container with example data
+
+    docker run -i lucdev-aoc-day2 - < input
