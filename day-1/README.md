@@ -34,3 +34,23 @@ This list represents the Calories of the food carried by five Elves:
 In case the Elves get hungry and need extra snacks, they need to know which Elf to ask: they'd like to know how many Calories are being carried by the Elf carrying the most Calories. In the example above, this is 24000 (carried by the fourth Elf).
 
 Find the Elf carrying the most Calories. **How many total Calories is that Elf carrying?**
+
+## Run natively
+
+Compile the binary
+
+    go build -o main main.go
+
+Run with the example input
+
+    ./main < input
+
+## Run with Docker
+
+Build the image
+
+    docker build -t lucdev-aoc-day1 .
+
+Run the container with example data
+
+    docker run -i lucdev-aoc-day1 - < input
