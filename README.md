@@ -7,3 +7,4 @@ https://adventofcode.com/2022
 ## Contents
 
 - [Day 1](./day-1)
+- [Day 2](./day-2)
