@@ -40,3 +40,13 @@ Run with example input.
 **Info**: Ensure the binary points to Python 3 and not Python 2.
 
     python main.py < input
+
+## Run with Docker
+
+Build the image
+
+    docker build -t lucdev-aoc-day3 .
+
+Run the container with example data
+
+    docker run -i lucdev-aoc-day3 - < input
