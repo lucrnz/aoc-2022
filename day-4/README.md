@@ -55,3 +55,13 @@ Build the binary; then run it
 
     dotnet build -c Release
     dotnet ./bin/Release/net6.0/day-4.dll
+
+## Run with Docker
+
+Build the image
+
+    docker build -t lucdev-aoc-day4 .
+
+Run the container with example data
+
+    docker run -i lucdev-aoc-day4 - < input
