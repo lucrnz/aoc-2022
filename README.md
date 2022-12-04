@@ -1,7 +1,8 @@
 ## Advent of Code 2022
 
-My solutions for AOC 2022
-I take this as an oportunity to rotate through the programming languages that I know.
+My solutions for AOC 2022.
+
+I take this challanges as an oportunity to show the programming languages that I know.
 
 https://adventofcode.com/2022
 
